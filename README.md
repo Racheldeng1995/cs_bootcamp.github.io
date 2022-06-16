@@ -1,6 +1,6 @@
 # CS bootcamp
 
-## Module1 Challenge: Refactor
+## Module1 Challenge: Code Refactor
 
 ### Project Description
 
