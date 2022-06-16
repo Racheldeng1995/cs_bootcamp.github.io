@@ -13,4 +13,4 @@ One of the most common tasks for front-end and junior developers is to take exis
 * Deployed application on live URL.
 
 ### Application Deployment
-* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/horison_company_website.html 
+* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/index.html 
