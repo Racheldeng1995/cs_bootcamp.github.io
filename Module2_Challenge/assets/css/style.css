@@ -53,6 +53,7 @@ font-size: 1.55vw;
     display: flex;
     flex-wrap: wrap; 
     justify-content: center;
-    object-fit: cover;
-    object-position: center;
+    background-image: url('../images/motto-background.jpg');
+    background-size: cover;
+    background-position: center;
 }
