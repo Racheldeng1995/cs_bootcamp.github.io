@@ -5,6 +5,14 @@
     margin: 0;
 }
 
+
+:root {
+    --background-color: black;
+    --text-color: #fce138;
+    --content-header-size: 30px;
+    --content-text-size: 20px
+}
+
 /*basic body background sytling*/
 body {
     background-color: #d9dcd6;
@@ -13,7 +21,7 @@ body {
 header {
     display: flex;
     padding: 20px 35px;
-    background-color: black ;
+    background-color: var(--background-color) ;
     justify-content: space-between;
     flex-wrap: wrap;
     position: sticky;
@@ -25,12 +33,12 @@ header h1 {
     font-weight: bold;
     margin: 0;
     font-size: 36px;
-    color: #fce138;
+    color: var(--text-color);
   }
   
 header a {
     text-decoration: none;
-    color: #fce138;
+    color: var(--text-color);
 }
 
 header nav {
@@ -64,13 +72,12 @@ header nav ul li a {
 }
 
 .motto-background h3{
-    font-style: italic;
     font-size: 40px;
-    color: #fce138;
+    color: var(--text-color);
 }
 
 .content {
-    background-color: black;
+    background-color: var(--background-color);
     display: flex;
     flex-wrap: wrap;
     align-items: center;
@@ -88,14 +95,14 @@ header nav ul li a {
 }
 
 .intro-text h1 {
-    color: #fce138;
-    font-size: 30px;
+    color: var(--text-color);
+    font-size: var(--content-header-size);
     text-align: center;
     flex: 20%;
   }
 
 .intro-text p {
-    font-size: 20px;
+    font-size: var(--content-text-size);
 }
 
 .intro-pic {
@@ -108,18 +115,18 @@ header nav ul li a {
 }
 
 .intro-pic h1 {
-    color: #fce138;
-    font-size: 30px;
+    color: var(--text-color);
+    font-size: var(--content-header-size);
     text-align: center;
     flex: 20%;
   }
 
 .details-intro {
     flex: 80%;
-    color: #fce138;
+    color: var(--text-color);
     text-align: left;
     padding: 10px 20px;
-    border-left: 1px solid #fce138 ;
+    border-left: 1px solid var(--text-color) ;
 }
 
 .details-experiences {
@@ -128,20 +135,20 @@ header nav ul li a {
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
-    border-left: 1px solid #fce138 ;
+    border-left: 1px solid var(--text-color) ;
 }
 
 .details-experiences a {
-    color: #fce138;
+    color: var(--text-color);
 }
 
 .details-experiences h1 {
-    font-size: 20px;
+    font-size: var(--content-text-size);
     font-weight: bold;
 }
 
 .details-experiences p {
-    font-size: 20px;
+    font-size: var(--content-text-size);
 }
  
 .project-data-lake {
@@ -149,7 +156,7 @@ header nav ul li a {
     background-image: url('../images/data-lake.jpg');
     background-size: 200px 100px;
     background-position: center;
-    color: #fce138;
+    color: var(--text-color);
     flex-basis: 100%;
     height: 250px;
     cursor: pointer;
@@ -177,7 +184,7 @@ header nav ul li a {
     background-image: url('../images/data-integrity.jpg');
     background-size: cover;
     background-position: center;
-    color: #fce138;
+    color: var(--text-color);
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
@@ -204,7 +211,7 @@ header nav ul li a {
     background-image: url('../images/system-observability.jpg');
     background-size: cover;
     background-position: center;
-    color: #fce138;
+    color: var(--text-color);
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
@@ -231,7 +238,7 @@ header nav ul li a {
     background-image: url('../images/business-owner.jpg');
     background-size: cover;
     background-position: center;
-    color: #fce138;
+    color: var(--text-color);
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
@@ -259,7 +266,7 @@ header nav ul li a {
     background-image: url('../images/content-creator.jpg');
     background-size: cover;
     background-position: center;
-    color: #fce138;
+    color: var(--text-color);
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
