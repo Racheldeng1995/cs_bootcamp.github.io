@@ -59,9 +59,9 @@ font-size: 1.55vw;
     background-position: center;
 }
 
-.motto-background h2{
+.motto-background h3{
     font-style: italic;
-    font-size: 55px;
+    font-size: 40px;
     color: #fce138;
 }
 
@@ -73,7 +73,29 @@ font-size: 1.55vw;
     justify-content: space-between;
 }
 
-.intro {
+.intro-about-me {
+    padding-bottom: 50px;
+    width: 100%;
+    height: 20%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.intro-about-me h1 {
+    color: #fce138;
+    font-size: 46px;
+    text-align: center;
+    border-right: 1px solid #fce138 ;
+    flex: 30%;
+  }
+
+.intro-about-me p {
+    font-size: 20px;
+}
+
+.intro-work {
     padding-bottom: 50px;
     width: 100%;
     display: flex;
@@ -82,64 +104,100 @@ font-size: 1.55vw;
     justify-content: space-around;
 }
 
-.intro h1 {
+.intro-work h1 {
     color: #fce138;
     font-size: 46px;
     text-align: center;
     border-right: 1px solid #fce138 ;
-    flex: 1 30%;
+    flex: 30%;
   }
 
-.details {
-    flex: 2 70%;
+.details-about-me {
+    flex: 70%;
+    color: #fce138;
+    text-align: left;
+    padding: 10px 20px;
+}
+
+.details-work {
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.details-life {
+    flex: 70%;
     display: flex;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
 }
 
+.details-contact {
+    flex: 70%;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.details-contact a {
+    color: #fce138;
+}
+
+
   
 .project-data-lake {
-    margin: 20px;
-    flex: 1;
+    margin: 10px 20px;
     background-image: url('../images/data-lake.jpg');
-    background-size: cover;
+    background-size: 200px 100px;
     background-position: center;
     color: #fce138;
+    flex-basis: 100%;
+    height: 250px;
+    cursor: pointer;
   }
 
 .project-data-integrity {
-    margin: 20px;
+    margin: 10px 20px;
     flex: 1;
     background-image: url('../images/data-integrity.jpg');
     background-size: cover;
     background-position: center;
     color: #fce138;
+    height: 200px;
+    cursor: pointer;
 }
 
 .project-system-observability {
-    margin: 20px;
+    margin: 10px 20px;
     flex: 1;
     background-image: url('../images/system-observability.jpg');
     background-size: cover;
     background-position: center;
     color: #fce138;
+    height: 200px;
+    cursor: pointer;
     }
 
 .project-business-owner {
-    margin: 20px;
+    margin: 10px 20px;
     flex: 1;
     background-image: url('../images/business-owner.jpg');
     background-size: cover;
     background-position: center;
     color: #fce138;
+    height: 200px
 }
 
 .project-content-creator {
-    margin: 20px;
+    margin: 10px 20px;
     flex: 1;
     background-image: url('../images/content-creator.jpg');
     background-size: cover;
     background-position: center;
     color: #fce138;
+    height: 200px
     }
