@@ -24,7 +24,7 @@ header {
     background-color: var(--background-color) ;
     justify-content: space-between;
     flex-wrap: wrap;
-    position: sticky;
+    /*position: sticky;*/
     position: -webkit-sticky;
     top: 0;
 }
@@ -165,10 +165,11 @@ header nav ul li a {
     height: 250px;
     cursor: pointer;
     border-radius:  15px;
+    opacity: 0.5;
   }
 
 .project-data-lake:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-data-lake h2 {
@@ -192,10 +193,11 @@ header nav ul li a {
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
+    opacity: 0.5;
 }
 
 .project-data-integrity:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-data-integrity h2 {
@@ -219,10 +221,11 @@ header nav ul li a {
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
+    opacity: 0.5;
     }
 
 .project-system-observability:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-system-observability h2 {
@@ -246,10 +249,11 @@ header nav ul li a {
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
+    opacity: 0.5;
 }
 
 .project-business-owner:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-business-owner h2 {
@@ -274,10 +278,11 @@ header nav ul li a {
     height: 200px;
     cursor: pointer;
     border-radius:  15px;
+    opacity: 0.5;
     }
 
 .project-content-creator:hover {
-    opacity: 0.5;
+    opacity: 1;
 }
 
 .project-content-creator h2 {
