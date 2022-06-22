@@ -5,7 +5,7 @@
     margin: 0;
 }
 
-
+/*global variables*/
 :root {
     --background-color: black;
     --text-color: #fce138;
@@ -76,6 +76,7 @@ header nav ul li a {
     color: var(--text-color);
 }
 
+/* main content styling*/
 .content {
     background-color: var(--background-color);
     display: flex;
@@ -84,6 +85,7 @@ header nav ul li a {
     justify-content: space-between;
 }
 
+/*the introduction part in content, including the section only contains text and the section contains pics and text.*/
 .intro-text {
     padding-bottom: 50px;
     width: 100%;
@@ -121,6 +123,7 @@ header nav ul li a {
     flex: 20%;
   }
 
+/* the details part in content, including details about myself, and details about work, life and contact*/
 .details-intro {
     flex: 80%;
     color: var(--text-color);
@@ -150,7 +153,8 @@ header nav ul li a {
 .details-experiences p {
     font-size: var(--content-text-size);
 }
- 
+
+/* each project styling, including work and life*/
 .project-data-lake {
     margin: 10px 20px;
     background-image: url('../images/data-lake.jpg');
@@ -287,7 +291,9 @@ header nav ul li a {
     bottom: -75%;
     left:2%
 }
-/* MEDIA QUERY FOR MOBILE PHONES AND SMALLER */
+
+
+/*media query to make sure the header fit small screen*/
 @media screen and (max-width: 1024px) {
 header nav ul li a {
     font-size: 30px;
