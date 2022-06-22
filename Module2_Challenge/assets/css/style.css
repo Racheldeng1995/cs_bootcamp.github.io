@@ -87,7 +87,6 @@ font-size: 1.55vw;
     color: #fce138;
     font-size: 46px;
     text-align: center;
-    border-right: 1px solid #fce138 ;
     flex: 30%;
   }
 
@@ -108,7 +107,6 @@ font-size: 1.55vw;
     color: #fce138;
     font-size: 46px;
     text-align: center;
-    border-right: 1px solid #fce138 ;
     flex: 30%;
   }
 
@@ -117,6 +115,7 @@ font-size: 1.55vw;
     color: #fce138;
     text-align: left;
     padding: 10px 20px;
+    border-left: 1px solid #fce138 ;
 }
 
 .details-work {
@@ -125,6 +124,7 @@ font-size: 1.55vw;
     flex-wrap: wrap;
     align-items: stretch;
     justify-content: space-around;
+    border-left: 1px solid #fce138 ;
 }
 
 .details-life {
@@ -133,6 +133,7 @@ font-size: 1.55vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    border-left: 1px solid #fce138 ;
 }
 
 .details-contact {
@@ -141,6 +142,7 @@ font-size: 1.55vw;
     flex-wrap: wrap;
     align-items: center;
     justify-content: space-around;
+    border-left: 1px solid #fce138 ;
 }
 
 .details-contact a {
@@ -189,7 +191,8 @@ font-size: 1.55vw;
     background-size: cover;
     background-position: center;
     color: #fce138;
-    height: 200px
+    height: 200px;
+    cursor: pointer;
 }
 
 .project-content-creator {
@@ -199,5 +202,6 @@ font-size: 1.55vw;
     background-size: cover;
     background-position: center;
     color: #fce138;
-    height: 200px
+    height: 200px;
+    cursor: pointer;
     }
