@@ -154,10 +154,10 @@ header nav ul li a {
     font-size: var(--content-text-size);
 }
 
-/* each project styling, including work and life*/
+/* each project styling, including work, life*/
 .project-data-lake {
     margin: 10px 20px;
-    background-image: url('../images/data-lake.jpg');
+    background-image: url('../images/data-lake.jpg'); 
     background-size: 200px 100px;
     background-position: center;
     color: var(--text-color);
