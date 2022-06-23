@@ -14,3 +14,18 @@ One of the most common tasks for front-end and junior developers is to take exis
 
 ### Application Deployment
 * Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/index.html 
+
+
+## Module2 Challenge: Professional Portfolio
+
+### Project Description
+
+Create a professional personal portfolio. In this Challenge, what I did in this project:
+* Used flexbox.
+* Used media query to make sure when resize the page or view the site on various screens and devices,people can be presented with a responsive layout that adapts to their viewport.
+* Used global variables on CSS.
+* Added proper comments on CSS.
+* Deployed application on live URL.
+
+### Application Deployment
+* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/index.html 
