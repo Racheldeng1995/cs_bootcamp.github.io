@@ -28,4 +28,4 @@ Create a professional personal portfolio. In this Challenge, what I did in this 
 * Deployed application on live URL.
 
 ### Application Deployment
-* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/index.html 
+* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module2_Challenge/index.html 
