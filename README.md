@@ -14,7 +14,8 @@ One of the most common tasks for front-end and junior developers is to take exis
 
 ### Application Deployment
 * Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module1_Challenge/index.html 
-* Screenshot: image.png
+* Screenshot: ![image](https://user-images.githubusercontent.com/48065400/175192488-38b93646-debb-426c-afa8-51258825dfb1.png)
+
 
 
 ## Module2 Challenge: Professional Portfolio
@@ -30,4 +31,4 @@ Create a professional personal portfolio. In this Challenge, what I did in this 
 
 ### Application Deployment
 * Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module2_Challenge/index.html 
-* Screenshot: image.png
+* Screenshot: ![image](https://user-images.githubusercontent.com/48065400/175192519-cc1478c3-18d9-4e83-a59c-27a1178de9fb.png)
