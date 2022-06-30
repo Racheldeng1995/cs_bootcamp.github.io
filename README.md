@@ -48,4 +48,4 @@ create an application that an employee can use to generate a random password bas
 
 ### Application Deployment
 * Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module3_Challenge/index.html 
-* Screenshot: ![image](https://user-images.githubusercontent.com/48065400/175195214-5d86bc34-0498-4cd6-aba7-8e523295c91b.png)
+* Screenshot: ![image](https://user-images.githubusercontent.com/48065400/176591678-070626fd-7675-4244-be27-ae619d236672.png)
