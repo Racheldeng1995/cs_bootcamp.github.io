@@ -33,3 +33,19 @@ Create a professional personal portfolio. In this Challenge, what I did in this 
 * Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module2_Challenge/index.html 
 * Screenshot: ![image](https://user-images.githubusercontent.com/48065400/175195214-5d86bc34-0498-4cd6-aba7-8e523295c91b.png)
 
+
+
+## Module3 Challenge: Password Generator
+
+### Project Description
+
+create an application that an employee can use to generate a random password based on criteria they’ve selected. What I did in this project:
+* Gave user multiple prompt windows to choose his/her password criteria.
+* Make sure the generated password matches the selected criteria.
+* Make sure to validate input format.
+* Added proper comments on Javascript.
+* Deployed application on live URL.
+
+### Application Deployment
+* Live URL: https://racheldeng1995.github.io/cs_bootcamp.github.io/Module3_Challenge/index.html 
+* Screenshot: ![image](https://user-images.githubusercontent.com/48065400/175195214-5d86bc34-0498-4cd6-aba7-8e523295c91b.png)
